@@ -57,17 +57,18 @@
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Junli Ren</a><sup>1,*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yikai Liu</a><sup>1,*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yingru Dai</a><sup>1</sup>,</span>
-                    <span class="author-block">
-                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Guijin Wang</a>
-                  </span>
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yikai Liu</a><sup>1,*</sup>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yingru Dai</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://junfeng-long.github.io/" target="_blank">Junfeng Long</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="http://web.ee.tsinghua.edu.cn/wangguijin/en/index.htm" target="_blank">Guijin Wang</a><sup>1,†</sup></span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Department of Electronic Engineering, Tsinghua University<br></span>
+                    <span class="author-block"><sup>1</sup>Department of Electronic Engineering, Tsinghua University,<sup>2</sup>ShanghaiTech University<br></span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -150,7 +151,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Legged navigation is typically examined within open-world, off-road, and challenging environments. In these scenarios, estimating external disturbances requires a complex synthesis of multi-modal information. This underlines a major limitation in existing works that primarily focus on avoiding obstacles. In this work, we propose TOP-Nav, a novel legged navigation framework that integrates a comprehensive path planner with Terrain awareness, Obstacle avoidance and close-loop Proprioception. TOP-Nav underscores the synergies between vision and proprioception in both path and motion planning. Within the path planner, we present and integrate a terrain estimator that enables the robot to select waypoints on terrains with higher traversability while effectively avoiding obstacles. In the motion planning level, we not only implement a locomotion controller to track the navigation commands, but also construct a proprioception advisor to provide motion evaluations for the path planner. Based on the close-loop motion feedback, we make online corrections for the vision-based terrain and obstacle estimations. Consequently, TOP-Nav achieves open-world navigation that the robot can handle terrains or disturbances beyond the distribution of prior knowledge and overcomes constraints imposed by visual conditions. Building upon extensive experiments conducted in both simulation and real-world environments, TOP-Nav demon- strates superior performance in open-world navigation compared to existing methods.
+            Legged navigation has been widely applied in open-world, off-road, and challenging environments. In these scenarios, estimating external disturbances requires a complex synthesis of multi-modal information. This underlines a major limitation in existing works that primarily focus on avoiding obstacles. In this work, we propose TOP-Nav, a novel legged navigation framework that integrates a comprehensive path planner with Terrain awareness, Obstacle avoidance and close-loop Proprioception. TOP-Nav underscores the synergies between vision and proprioception in both path planning and locomotion control. Within the path planner, we present a terrain estimator that enables the robot to select waypoints on terrains with higher traversability while effectively avoiding obstacles. The locomotion controller tracks the planned waypoints and provides motion evaluations as the proprioception advisor. Based on the closed-loop motion feedback, we offer online corrections for the vision-based terrain and obstacle estimations. Consequently, TOP-Nav achieves open-world navigation that the robot can handle terrains or disturbances beyond the distribution of prior knowledge and overcomes constraints imposed by visual conditions. Building upon extensive experiments conducted in both simulation and real-world environments, TOP-Nav demonstrates superior performance in open-world navigation compared to existing methods.
           </p>
         </div>
       </div>
